@@ -1,0 +1,17 @@
+.logo{
+    padding-left: 2rem;
+    justify-self: left;
+}
+.container{
+    display: grid;
+    grid-template-columns: minmax(100px,1fr) 1fr;
+    align-items: center;
+    justify-items: center;
+    padding: 1rem;
+    background-color: white;
+    box-shadow: 1rem 0 2rem gray;
+}
+.navLinks{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+}

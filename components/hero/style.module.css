@@ -1,0 +1,33 @@
+.heroContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.heroText{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    padding-top: 35%;
+    padding-bottom: 35%;
+}
+.heroImg{
+    justify-self: right;
+    object-fit: cover;
+    /* height: 50rem; */
+    object-position: 0% 50%;
+    width: 105%;
+}
+.sos{
+    justify-self: center;
+    font-size: 5rem;
+    color: red;
+    /* font-variant: small-caps; */
+    font: bold;
+    display: block;
+}
+.medGrText{
+    font-size: 4rem;
+}
+.heroContainer p{
+    font-size: larger;
+    padding-left: 2.5rem;
+}

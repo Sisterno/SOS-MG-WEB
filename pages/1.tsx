@@ -8,7 +8,6 @@ export interface LandingPageProps {
 const LandingPage: React.SFC<LandingPageProps> = () => {
     return (
         <div>
-            <Header/>
             <Hero/>
         </div>
     );

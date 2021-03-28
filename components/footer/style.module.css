@@ -1,0 +1,19 @@
+.footerContainer{
+    background-color: hsl(0, 0%, 77%);
+    display: grid;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+.dataContainer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 1rem 0 1rem 0;
+}
+.derechos{
+    justify-self: center;
+}
+.logo{
+    justify-self: center;
+    align-self: center;
+}

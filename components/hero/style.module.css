@@ -3,7 +3,7 @@
     .heroContainer{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        box-shadow: 0px 5px 15px gray;
+        /* box-shadow: 0px 5px 15px gray; */
     }
     .heroText{
         padding: 0% 0% 0% 0.5rem;

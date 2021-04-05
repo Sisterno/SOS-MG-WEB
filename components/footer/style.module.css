@@ -1,7 +1,7 @@
 .footerContainer{
     background-color: hsl(0, 0%, 77%);
     display: grid;
-    position: absolute;
+    position: static;
     width: 100%;
     bottom: 0;
 }

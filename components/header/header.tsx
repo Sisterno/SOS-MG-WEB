@@ -37,7 +37,7 @@ const header: React.SFC<headerProps> = () => {
                     <Link href="/1"><a>Home</a></Link>
                     <Link href="/1"><a>Services</a></Link>
                     <Link href="/1"><a>International Insurance</a></Link>
-                    <Link href="/1"><a>About us</a></Link>
+                    <Link href="/about_us"><a>About us</a></Link>
                     <Link href="/1"><a>Contact us</a></Link>
                 </div>
             </div>

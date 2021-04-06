@@ -7,7 +7,7 @@ const Footer: React.SFC<FooterProps> = () => {
     return (
         <div className={styles.footerContainer}>
             <div className={styles.dataContainer}>
-                <img src="/img/logo.png" alt="" className={styles.logo} />
+                <img src="/img/logo_final.png" alt="" className={styles.logo} />
                 <div>
                     <span>Partners</span>
                     <span></span>
@@ -24,7 +24,7 @@ const Footer: React.SFC<FooterProps> = () => {
                     <span></span>
                 </div>
             </div>
-            <span className={styles.derechos}>© Copyright 2015. All Rights Reserved by Clinica SOS .</span>
+            <span className={styles.derechos}>© Copyright 2020. All Rights Reserved by Clinica SOS.</span>
         </div>
     );
 }

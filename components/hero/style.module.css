@@ -1,9 +1,13 @@
 /*Celulares*/
 @media (min-width:300px) and (max-width:1224px) {
     .heroContainer{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+        display: flexbox;
+        flex-direction: column;
+        height: 20rem;
+        /* grid-template-columns: 1fr 1fr; */
+        margin-top: 70px;
         /* box-shadow: 0px 5px 15px gray; */
+        align-content: center;
     }
     .heroText{
         padding: 0% 0% 0% 0.5rem;
@@ -15,41 +19,60 @@
         /* padding-bottom: 35%; */
     }
     .heroImg{
-        justify-self: right;
-        object-fit: cover;
-        margin-right: -150px;
-        object-position: 0% 50%;
-        width: 200%;
+        width: 55%;
+        height: 100%;
+        background-image: url('/img/hero_front.JPG');
+        background-repeat: no-repeat;
+        background-position: 0px 100%;
+        background-size: 150%;
+        border-radius: 0% 0% 0% 100%;
+        /* clip-path:circle(50%); */
+        shape-outside: border-box;
+        float: right;
+        position: relative;
+        /* right: -25%; */
+        /* top: -100%; */
+        box-shadow: 0px 5px 15px gray;
+        /* margin-top: 70px; */
+        
     }
     .sos{
-        align-self: flex-start;
-        justify-self: left;
+        /* align-self: center; */
+        /* justify-self: left; */
+        text-align: center;
         font-size: 2rem;
         color: red;
         /* font-variant: small-caps; */
         font-weight: 600;
         display: block;
-        padding: 0 0 5px 0;
-
+        padding: 20px 0 5px 0;
+        
     }
     .medGrText{
         font-weight: 600;
-        align-self: flex-start;
+        /* align-self: flex-start; */
+        text-align: center;
         font-size: 1.5rem;
         padding: 0 0 20px 0;
+        display: block;
     }
     .heroContainer p{
         width: 90%;
         font-size: 11px;
         align-self: flex-start;
+        padding: 0 0 0 15px;
     }
     .button{
         margin: 10px 0 0 0;
-        width: 70%;
+        width: 40%;
         border-radius: 20px;
         background-color: #C4C4C4;
         border: none;
         padding: 10px 0 10px 0;
+        /* display: block; */
+        place-self: center;
+        align-self: center;
+        margin-left: 25px;
     }
 }
 /*Computadoras*/

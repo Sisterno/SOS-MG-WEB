@@ -12,9 +12,11 @@
 }
 .body_carousel_title{
     align-self: center;
+    position: static;
 }
 .body_carousel_container{
-    display: flex;
+
+    display: flexbox;
     flex-direction: column;
-    margin: 0px 0 0 0;
+    margin: 10px 0 0 0;
 }

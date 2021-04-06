@@ -12,7 +12,9 @@
         background-color: white;
         box-shadow: 1rem 0 2rem gray;
         position: fixed;
+        top: 0;
         width: 100%;
+        z-index: 1;
     }
     .menuIcon{
         justify-self: right;

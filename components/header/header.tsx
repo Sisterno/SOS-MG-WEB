@@ -29,16 +29,16 @@ const header: React.SFC<headerProps> = () => {
     return (
         <nav>
             <div className={styles.container}>
-                <img className={styles.logo} src="/img/logo.png" alt="" />
+                <img className={styles.logo} src="/img/logo_final.png" alt="" />
                 {isTabletOrMobile && (
                     <img src="/img/icon/menu-24px.svg" alt="" className={styles.menuIcon} onClick={handleMenuClick}/>
                 )}
                 <div className={styles.navLinks} ref={RefnavLinks}>
                     <Link href="/1"><a>Home</a></Link>
                     <Link href="/1"><a>Services</a></Link>
-                    <Link href="/1"><a>International Insurance</a></Link>
+                    <Link href="/internacional_insurance"><a>International Insurance</a></Link>
                     <Link href="/about_us"><a>About us</a></Link>
-                    <Link href="/1"><a>Contact us</a></Link>
+                    <Link href="/contact_us"><a>Contact us</a></Link>
                 </div>
             </div>
         </nav>

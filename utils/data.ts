@@ -5,8 +5,13 @@ interface medic {
     cmp:string
     img:string
 }
+interface insurance {
+    id:number
+    name:string
+    img:string
+}
 
-let medicalStaff:Array<medic>=[
+const medicalStaff:Array<medic>=[
     {
         id:1,
         name:'Dr. Rodolfo Quispe Orihuela',
@@ -50,6 +55,58 @@ let medicalStaff:Array<medic>=[
         img:'test_med.jpg'
     },
 ]
+const insurances:Array<insurance>=[
+    {
+        id:1,
+        name:'Blue Cross Blue Shield',
+        img:'BCBS.png'
+    },
+    {
+        id:2,
+        name:'Blue Cross Blue Shield',
+        img:'BCBS.png'
+    },
+    {
+        id:3,
+        name:'Blue Cross Blue Shield',
+        img:'BCBS.png'
+    },
+    {
+        id:4,
+        name:'Blue Cross Blue Shield',
+        img:'BCBS.png'
+    },
+    {
+        id:5,
+        name:'Blue Cross Blue Shield',
+        img:'BCBS.png'
+    },
+    {
+        id:6,
+        name:'Blue Cross Blue Shield',
+        img:'BCBS.png'
+    },
+    {
+        id:7,
+        name:'Blue Cross Blue Shield',
+        img:'BCBS.png'
+    },
+    {
+        id:8,
+        name:'Blue Cross Blue Shield',
+        img:'BCBS.png'
+    },
+    {
+        id:9,
+        name:'Blue Cross Blue Shield',
+        img:'BCBS.png'
+    },
+    {
+        id:10,
+        name:'Blue Cross Blue Shield',
+        img:'BCBS.png'
+    },
+]
 
-export { medicalStaff }
-export type { medic }
+export { medicalStaff,insurances }
+export type { medic, insurance }

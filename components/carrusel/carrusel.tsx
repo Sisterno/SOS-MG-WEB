@@ -11,7 +11,7 @@ const Carrusel: React.SFC<CarruselProps> = () => {
     const mainGroupId = 'Main';
     return (
         <div className={styles.body_carousel_container}>
-            <h2 className={styles.body_carousel_title}>OUR SERVICES</h2>
+            <h2 className={styles.body_carousel_title}>Our Services</h2>
             <div>
                 <Carousel
                     centerMode

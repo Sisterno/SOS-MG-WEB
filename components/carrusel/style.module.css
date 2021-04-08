@@ -12,6 +12,8 @@
 }
 .body_carousel_title{
     align-self: center;
+    justify-self: center;
+    text-align: center;
 }
 .body_carousel_container{
 

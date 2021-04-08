@@ -18,7 +18,8 @@ const Aliance: React.SFC<AlianceProps> = () => {
                 showStatus={false}
                 showThumbs={false}
                 centerSlidePercentage={80}
-                // autoPlay={false}
+                infiniteLoop={true}
+                                // autoPlay={false}
             >
                 <div className={styles.body_aliance_slide}>
                     <img src="/img/hotel_cusco_logo.png" />

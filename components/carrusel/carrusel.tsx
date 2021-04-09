@@ -39,7 +39,7 @@ const Carrusel: React.SFC<CarruselProps> = () => {
                         {/* <p className={styles.body_carousel_legend}>Camara Hiperbarica</p> */}
                     </div>
                     <div>
-                        <img src="/img/ambulancia.JPG" />
+                        <img src="/img/ambulancia_2.jpg" />
                         <p className={styles.body_carousel_legend}>Ambulance</p>
                     </div>
                     <div>

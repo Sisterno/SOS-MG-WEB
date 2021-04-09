@@ -2,7 +2,8 @@
 @media (min-width:300px) and (max-width:1224px) {
     .footerContainer{
         background-color: hsl(0, 0%, 77%);
-        display: grid;
+        display: flex;
+        flex-direction: column;
         position: static;
         width: 100%;
         bottom: 0;
@@ -14,11 +15,14 @@
     }
     .derechos{
         justify-self: center;
+        align-self: center;
+        font-size: 0.75rem;
+        font-family: Roboto;
     }
     .logo{
         justify-self: center;
         align-self: center;
-        width: 100px;
+        width: 60px;
     }
 }
 /*Computadoras*/

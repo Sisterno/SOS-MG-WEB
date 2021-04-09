@@ -6,7 +6,7 @@ export interface SedeProps {
 const Sede: React.SFC<SedeProps> = () => {
     return (
         <div className={styles.body_sede_container}>
-            <h2>Sede</h2>
+            <h2>Headquarter</h2>
             <div className={styles.body_sede_info_container}>
                 <view className={styles.body_sede_img}/>
                 <h3>SOS Medical Group Clinic</h3>

@@ -26,6 +26,7 @@ const header: React.SFC<headerProps> = () => {
         }
     }
 
+
     return (
         <nav>
             <div className={styles.container}>
@@ -34,11 +35,11 @@ const header: React.SFC<headerProps> = () => {
                     <img src="/img/icon/menu-24px.svg" alt="" className={styles.menuIcon} onClick={handleMenuClick}/>
                 )}
                 <div className={styles.navLinks} ref={RefnavLinks}>
-                    <Link href="/1"><a>Home</a></Link>
-                    <Link href="/1"><a>Services</a></Link>
-                    <Link href="/internacional_insurance"><a>International Insurance</a></Link>
-                    <Link href="/about_us"><a>About us</a></Link>
-                    <Link href="/contact_us"><a>Contact us</a></Link>
+                    <Link href="/1"><a onClick={handleMenuClick}>Home</a></Link>
+                    <Link href="/1"><a onClick={handleMenuClick}>Services</a></Link>
+                    <Link href="/internacional_insurance"><a onClick={handleMenuClick}>International Insurance</a></Link>
+                    <Link href="/about_us"><a onClick={handleMenuClick}>About us</a></Link>
+                    <Link href="/contact_us"><a onClick={handleMenuClick}>Contact us</a></Link>
                 </div>
             </div>
         </nav>

@@ -12,16 +12,23 @@
     }
 
     .body_sede_img{
-        width:50%; 
-        height: 200px;
+        width:60%; 
+        height: 250px;
         background-image: url('/img/sos_front.JPG');
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: center;
+        background-position: 25% 50%;
         /* -webkit-clip-path:polygon(0% 20%, 100% 0%,100% 100%,0% 80%); */
         clip-path:polygon(0% 0%, 100% 0%,80% 100%,0% 100%);
         shape-outside: polygon(0% 0%, 105% 0%,80% 100%,0% 100%);
         float: left;
+    }
+    .body_sede_info_container p{
+        text-align: justify;
+        padding-right: 10px;
+    }
+    .body_sede_info_container h3{
+        text-align: center;
     }
 }
 /*Computadoras*/

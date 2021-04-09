@@ -21,25 +21,26 @@ const Carrusel: React.SFC<CarruselProps> = () => {
                     showThumbs={false}
                     centerSlidePercentage={80}
                     autoPlay={false}
+                    infiniteLoop={true}
                 >
 
                     <div>
-                        <img src="/img/camara_hiperbarica.JPG" />
-                        <p className={styles.body_carousel_legend}>Camara Hiperbarica</p>
-                        {/* <p className={styles.body_carousel_legend}>Camara Hiperbarica</p> */}
-                    </div>
-                    <div>
                         <img src="/img/cuarto.JPG" />
                         {/* <p className={styles.body_carousel_legend}>Cuarto USI</p> */}
-                        <p className={styles.body_carousel_legend}>Cuarto USI</p>
+                        <p className={styles.body_carousel_legend}>Intensive Care Unit</p>
                     </div>
                     <div>
                         <img src="/img/tomografo2.JPG" />
-                        <p className={styles.body_carousel_legend}>Tomografo</p>
+                        <p className={styles.body_carousel_legend}>Tomography</p>
+                    </div>
+                    <div>
+                        <img src="/img/camara_hiperbarica.JPG" />
+                        <p className={styles.body_carousel_legend}>Hyperbaric chambers</p>
+                        {/* <p className={styles.body_carousel_legend}>Camara Hiperbarica</p> */}
                     </div>
                     <div>
                         <img src="/img/ambulancia.JPG" />
-                        <p className={styles.body_carousel_legend}>Ambulancia</p>
+                        <p className={styles.body_carousel_legend}>Ambulance</p>
                     </div>
                     <div>
                         <img src="/img/lobby.JPG" />

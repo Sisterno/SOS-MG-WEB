@@ -58,9 +58,12 @@
     }
     .heroContainer p{
         width: 90%;
-        font-size: 11px;
+        position: relative;
+        left: -15px;
+        font-size: 12px;
         align-self: flex-start;
-        padding: 0 0 0 15px;
+        padding: 0 20px 0 25px;
+        text-align: justify;
     }
     .button{
         margin: 10px 0 0 0;

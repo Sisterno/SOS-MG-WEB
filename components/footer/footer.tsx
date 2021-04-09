@@ -8,7 +8,7 @@ const Footer: React.SFC<FooterProps> = () => {
         <div className={styles.footerContainer}>
             <div className={styles.dataContainer}>
                 <img src="/img/logo_final.png" alt="" className={styles.logo} />
-                <div>
+                {/* <div>
                     <span>Partners</span>
                     <span></span>
                     <span></span>
@@ -22,7 +22,7 @@ const Footer: React.SFC<FooterProps> = () => {
                     <span>Contact us</span>
                     <span></span>
                     <span></span>
-                </div>
+                </div> */}
             </div>
             <span className={styles.derechos}>© Copyright 2020. All Rights Reserved by Clinica SOS.</span>
         </div>

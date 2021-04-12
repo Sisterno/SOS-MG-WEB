@@ -10,11 +10,11 @@ const InterInsurance: React.SFC<InterInsuranceProps> = () => {
     return ( 
         <div className={style.II_main_container}>
             <h2>International Insurance we accept</h2>
-            <div>
-				<label className="omrs-input-underlined">
+            <div className={style.II_find_container}>
+				{/* <label className={style.II_find_container}> */}
 				    <input className={style.II_find_input}/>
                     <img src="/img/icon/search_black_24dp.svg" className={style.II_find_icon}/>
-				</label>
+				{/* </label> */}
 			</div>
             <div className={style.II_insurances_container}>
             {

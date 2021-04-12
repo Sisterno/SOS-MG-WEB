@@ -54,6 +54,34 @@ const medicalStaff:Array<medic>=[
         cmp:'44155',
         img:'test_med.jpg'
     },
+    {
+        id:6,
+        name:'Dr. Rodolfo Quispe Orihuela',
+        title:'Médico Cirujano',
+        cmp:'44155',
+        img:'test_med.jpg'
+    },
+    {
+        id:6,
+        name:'Dr. Rodolfo Quispe Orihuela',
+        title:'Médico Cirujano',
+        cmp:'44155',
+        img:'test_med.jpg'
+    },
+    {
+        id:6,
+        name:'Dr. Rodolfo Quispe Orihuela',
+        title:'Médico Cirujano',
+        cmp:'44155',
+        img:'test_med.jpg'
+    },
+    {
+        id:6,
+        name:'Dr. Rodolfo Quispe Orihuela',
+        title:'Médico Cirujano',
+        cmp:'44155',
+        img:'test_med.jpg'
+    },
 ]
 const insurances:Array<insurance>=[
     {
@@ -98,6 +126,56 @@ const insurances:Array<insurance>=[
     },
     {
         id:9,
+        name:'Blue Cross Blue Shield',
+        img:'BCBS.png'
+    },
+    {
+        id:10,
+        name:'Blue Cross Blue Shield',
+        img:'BCBS.png'
+    },
+    {
+        id:10,
+        name:'Blue Cross Blue Shield',
+        img:'BCBS.png'
+    },
+    {
+        id:10,
+        name:'Blue Cross Blue Shield',
+        img:'BCBS.png'
+    },
+    {
+        id:10,
+        name:'Blue Cross Blue Shield',
+        img:'BCBS.png'
+    },
+    {
+        id:10,
+        name:'Blue Cross Blue Shield',
+        img:'BCBS.png'
+    },
+    {
+        id:10,
+        name:'Blue Cross Blue Shield',
+        img:'BCBS.png'
+    },
+    {
+        id:10,
+        name:'Blue Cross Blue Shield',
+        img:'BCBS.png'
+    },
+    {
+        id:10,
+        name:'Blue Cross Blue Shield',
+        img:'BCBS.png'
+    },
+    {
+        id:10,
+        name:'Blue Cross Blue Shield',
+        img:'BCBS.png'
+    },
+    {
+        id:10,
         name:'Blue Cross Blue Shield',
         img:'BCBS.png'
     },

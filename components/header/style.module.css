@@ -45,19 +45,30 @@
     .logo{
         padding-left: 2rem;
         justify-self: left;
+        height: 100px;
+
     }
     .container{
         display: grid;
         grid-template-columns: minmax(100px,1fr) 1fr;
-        align-items: center;
-        justify-items: center;
         padding: 1rem;
         background-color: white;
         box-shadow: 1rem 0 2rem gray;
         position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1;
     }
     .navLinks{
-        display: grid;
+        display: grid !important;
         grid-template-columns: repeat(6,1fr);
+    }
+    .navLinks a{
+        font-size: 1.2rem;
+        padding: 1rem 0 1rem 0;
+        justify-self: center;
+        align-self: center;
+        text-align: center;
+        width: auto;
     }
 } 

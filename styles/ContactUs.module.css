@@ -1,16 +1,54 @@
-.CU_main_container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-items: center;
-    margin-top: 70px;
-    margin-bottom: 50px;
+/*Celulares*/
+@media (min-width:300px) and (max-width:1224px) {
+    .CU_main_container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+        margin-top: 70px;
+        margin-bottom: 50px;
+    }
+    .CU_main_container span, .CU_main_container h2{
+        font-family: Roboto;
+        padding: 15px 0 15px 0;
+    }
+    .CU_numbers_container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .CU_street_container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+        margin-bottom: 15px;
+    }
 }
-.CU_main_container span, .CU_main_container h2{
-    font-family: Roboto;
-    padding: 15px 0 15px 0;
-}
-.CU_main_container div{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+/*Computadoras*/
+@media (min-width:1224px) {
+    .CU_main_container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+        margin-top: 130px;
+        margin-bottom: 50px;
+    }
+    .CU_main_container span, .CU_main_container h2{
+        font-family: Roboto;
+        padding: 15px 0 15px 0;
+        font-size: 1.5rem;
+    }
+    .CU_numbers_container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 0 0 50px 0;
+    }
+    .CU_street_container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+        margin-bottom: 50px;
+    }
 }

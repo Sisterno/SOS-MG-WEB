@@ -11,7 +11,10 @@ const Hero: React.SFC<HeroProps> = () => {
                 <span className={styles.sos}>SOS</span>
                 <span className={styles.medGrText}>Medical Group</span>
                 <p>The most modern medical center and the most distinguished medical staff to provide healthcare services of the highest quality</p>
-                <button className={styles.button}>Insurences</button>
+                <div className={styles.buttonContainer}>
+                    <button className={styles.button}>Insurences</button>
+                </div>
+                
             {/* </div> */}
                  
             {/* <img src="/img/heroImg3.png" alt="" className={styles.heroImg}/> */}

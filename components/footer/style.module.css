@@ -29,18 +29,23 @@
 @media (min-width:1224px) {
     .footerContainer{
         background-color: hsl(0, 0%, 77%);
-        display: grid;
+        display: flex;
+        flex-direction: column;
         position: static;
         width: 100%;
         bottom: 0;
     }
     .dataContainer{
         display: grid;
-        grid-template-columns: repeat(4,1fr);
+        /* grid-template-columns: repeat(4,1fr); */
         padding: 1rem 0 1rem 0;
     }
     .derechos{
         justify-self: center;
+        align-self: center;
+        font-size: 1rem;
+        font-family: Roboto;
+        margin: 10px 0 10px 0;
     }
     .logo{
         justify-self: center;

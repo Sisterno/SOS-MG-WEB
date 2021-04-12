@@ -1,50 +1,112 @@
-.II_main_container{
-    margin-top: 70px;
-    padding: 25px 10px 50px 10px;
-    display: flex;
-    flex-direction: column;
+/*Celulares*/
+@media (min-width:300px) and (max-width:1224px) {
+    .II_main_container{
+        margin-top: 70px;
+        padding: 25px 10px 50px 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .II_main_container h2{
+        text-align: center;
+        font-family: Roboto;
+    }
+    .II_find_input{
+        width: 100%;
+        height: 35px;
+        border-radius: 25px;
+    }
+    .II_find_icon{
+        float: right;
+        /* top: 100px; */
+        right: 20px;
+        /* top: 0px; */
+        /* bottom: 0px; */
+        position: absolute;
+        height: 30px;
+    }
+    .II_insurances_container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        -moz-column-gap: 25px;
+        column-gap: 25px;
+        row-gap: 40px;
+        padding: 40px 0 0 0;
+    }
+    .II_insurances_cart{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        box-shadow: 1px 1px 10px gray;
+    }
+    .II_insurances_cart div{
+        width: 100%;
+        height: 80px;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .II_insurances_cart span{
+        padding: 10px 0 10px 0;
+        font-family: Roboto;
+    }
 }
-.II_main_container h2{
-    text-align: center;
-    font-family: Roboto;
-}
-.II_find_input{
-    width: 100%;
-    height: 35px;
-    border-radius: 25px;
-}
-.II_find_icon{
-    float: right;
-    /* top: 100px; */
-    right: 20px;
-    /* top: 0px; */
-    /* bottom: 0px; */
-    position: absolute;
-    height: 30px;
-}
-.II_insurances_container{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    -moz-column-gap: 25px;
-    column-gap: 25px;
-    row-gap: 40px;
-    padding: 40px 0 0 0;
-}
-.II_insurances_cart{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    box-shadow: 1px 1px 10px gray;
-}
-.II_insurances_cart div{
-    width: 100%;
-    height: 80px;
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-.II_insurances_cart span{
-    padding: 10px 0 10px 0;
-    font-family: Roboto;
+/*Computadoras*/
+@media (min-width:1224px) {
+    .II_main_container{
+        margin-top: 120px;
+        padding: 25px 10px 50px 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .II_main_container h2{
+        text-align: center;
+        font-family: Roboto;
+        font-size: 2rem;
+    }
+    .II_find_container{
+        display: grid;
+    }
+    .II_find_input{
+        width: 50%;
+        height: 35px;
+        border-radius: 25px;
+        align-self: center;
+        justify-self: center;
+    }
+    .II_find_icon{
+        float: inline-end;
+        right: 26%;
+        /* padding-top: 5px; */
+        position: absolute;
+        height: 35px;
+        
+    }
+    .II_insurances_container{
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        -moz-column-gap: 25px;
+        column-gap: 25px;
+        row-gap: 40px;
+        padding: 40px 0 0 0;
+        margin: 0 10% 0 10%;
+    }
+    .II_insurances_cart{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        box-shadow: 1px 1px 10px gray;
+    }
+    .II_insurances_cart div{
+        width: 100%;
+        height: 80px;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .II_insurances_cart span{
+        padding: 10px 0 10px 0;
+        font-family: Roboto;
+    }
 }

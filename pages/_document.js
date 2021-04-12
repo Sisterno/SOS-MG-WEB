@@ -8,8 +8,7 @@ class MyDocument extends Document {
   render() {
     return (
       <Html>
-        <Head>
-          
+        <Head> 
         </Head>
         <body>       
           <div className="MainContainer">

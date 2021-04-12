@@ -14,7 +14,7 @@ const LandingPage: React.SFC<LandingPageProps> = () => {
             <Hero/>
             <Carrusel/>
             <Sede/>
-            <Aliance/>
+            {/* <Aliance/> */}
         </div>
     );
 }

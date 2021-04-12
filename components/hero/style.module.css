@@ -98,11 +98,10 @@
         background-size: 150%;
         border-radius: 0% 0% 0% 100%;
         shape-outside: border-box;
-        float: inline-end;
+        float: right;
         /* right: 0; */
         /* position: static; */
         box-shadow: 0px 5px 15px gray;
-        
     }
     .sos{
         text-align: center;

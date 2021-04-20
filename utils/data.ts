@@ -6,7 +6,7 @@ interface medic {
     img:string
 }
 interface insurance {
-    id:number
+    id:string
     name:string
     img:string
 }
@@ -104,108 +104,110 @@ const medicalStaff:Array<medic>=[
         img:'44732.jpg'
     },
 ]
-const insurances:Array<insurance>=[
-    {
-        id:1,
-        name:'Blue Cross Blue Shield',
-        img:'BCBS.png'
-    },
-    {
-        id:2,
-        name:'Blue Cross Blue Shield',
-        img:'BCBS.png'
-    },
-    {
-        id:3,
-        name:'Blue Cross Blue Shield',
-        img:'BCBS.png'
-    },
-    {
-        id:4,
-        name:'Blue Cross Blue Shield',
-        img:'BCBS.png'
-    },
-    {
-        id:5,
-        name:'Blue Cross Blue Shield',
-        img:'BCBS.png'
-    },
-    {
-        id:6,
-        name:'Blue Cross Blue Shield',
-        img:'BCBS.png'
-    },
-    {
-        id:7,
-        name:'Blue Cross Blue Shield',
-        img:'BCBS.png'
-    },
-    {
-        id:8,
-        name:'Blue Cross Blue Shield',
-        img:'BCBS.png'
-    },
-    {
-        id:9,
-        name:'Blue Cross Blue Shield',
-        img:'BCBS.png'
-    },
-    {
-        id:10,
-        name:'Blue Cross Blue Shield',
-        img:'BCBS.png'
-    },
-    {
-        id:10,
-        name:'Blue Cross Blue Shield',
-        img:'BCBS.png'
-    },
-    {
-        id:10,
-        name:'Blue Cross Blue Shield',
-        img:'BCBS.png'
-    },
-    {
-        id:10,
-        name:'Blue Cross Blue Shield',
-        img:'BCBS.png'
-    },
-    {
-        id:10,
-        name:'Blue Cross Blue Shield',
-        img:'BCBS.png'
-    },
-    {
-        id:10,
-        name:'Blue Cross Blue Shield',
-        img:'BCBS.png'
-    },
-    {
-        id:10,
-        name:'Blue Cross Blue Shield',
-        img:'BCBS.png'
-    },
-    {
-        id:10,
-        name:'Blue Cross Blue Shield',
-        img:'BCBS.png'
-    },
-    {
-        id:10,
-        name:'Blue Cross Blue Shield',
-        img:'BCBS.png'
-    },
-    {
-        id:10,
-        name:'Blue Cross Blue Shield',
-        img:'BCBS.png'
-    },
-    {
-        id:10,
-        name:'Blue Cross Blue Shield',
-        img:'BCBS.png'
-    },
-]
+const insurances:Array<insurance>=[{'id': 'insu0', 'name': 'ADAC (ARC) Insurance', 'img': 'adac.jpg'}, {'id': 'insu1', 'name': 'Assured Assistance', 'img': 'AssuredAssistance.jpg'}, {'id': 'insu2', 'name': 'Blue Cross Blue Shield', 'img': 'blue.jpg'}, {'id': 'insu3', 'name': 'ANWB Alarmcentrale', 'img': 'anwb.jpg'}, {'id': 'insu4', 'name': 'Intemational Medical Group', 'img': 'InternationalMedicalGroup.jpg'}, {'id': 'insu5', 'name': 'Cover More Insurance', 'img': 'CoverMore.jpg'}, {'id': 'insu6', 'name': 'Universal Assistance', 'img': 'universalAssistance.jpg'}, {'id': 'insu7', 'name': 'Coris Brasil', 'img': 'coris.jpg'}, {'id': 'insu8', 'name': 'First Assist', 'img': 'Firstassist.jpg'}, {'id': 'insu9', 'name': 'Mundial Assistance ', 'img': 'mondial.jpg'}, {'id': 'insu10', 'name': 'Europea de Seguros', 'img': 'europea.jpg'}, {'id': 'insu11', 'name': 'Cardinal Assistance', 'img': 'CardinalAssistance.jpg'}, {'id': 'insu12', 'name': 'American Assistance', 'img': 'AmericanAssist.jpg'}, {'id': 'insu13', 'name': 'Harel Insurance Company', 'img': 'HarelInsuranceCompany.jpg'}, {'id': 'insu14', 'name': 'UNIQA AG', 'img': 'Unica.jpg'}, {'id': 'insu15', 'name': 'Worldwide Assistance', 'img': 'WorldWideAssistance.jpg'}, {'id': 'insu16', 'name': 'QBE Travel Insurance', 'img': 'qbe.jpg'}, {'id': 'insu17', 'name': 'Inter Mutuelles Assistance', 'img': 'interMutuelles.jpg'}, {'id': 'insu18', 'name': 'Inter Assistance', 'img': 'interassist.jpg'}, {'id': 'insu19', 'name': 'International SOS', 'img': 'InterantionalSOS.jpg'}, {'id': 'insu20', 'name': 'AIG Travel Insurance', 'img': 'aig.jpg'}, {'id': 'insu21', 'name': 'Gouda Travel Insurance', 'img': 'gouda.jpg'}, {'id': 'insu22', 'name': 'Eurocross Asistance', 'img': 'eurocross.jpg'}, {'id': 'insu23', 'name': 'Travel Guard', 'img': 'TravelGuard.jpg'}, {'id': 'insu24', 'name': 'Travel Guard Chartis', 'img': 'travel.jpg'}]
+
+// const insurances:Array<insurance>=[
+//     {
+//         id:1,
+//         name:'Blue Cross Blue Shield',
+//         img:'BCBS.png'
+//     },
+//     {
+//         id:2,
+//         name:'Blue Cross Blue Shield',
+//         img:'BCBS.png'
+//     },
+//     {
+//         id:3,
+//         name:'Blue Cross Blue Shield',
+//         img:'BCBS.png'
+//     },
+//     {
+//         id:4,
+//         name:'Blue Cross Blue Shield',
+//         img:'BCBS.png'
+//     },
+//     {
+//         id:5,
+//         name:'Blue Cross Blue Shield',
+//         img:'BCBS.png'
+//     },
+//     {
+//         id:6,
+//         name:'Blue Cross Blue Shield',
+//         img:'BCBS.png'
+//     },
+//     {
+//         id:7,
+//         name:'Blue Cross Blue Shield',
+//         img:'BCBS.png'
+//     },
+//     {
+//         id:8,
+//         name:'Blue Cross Blue Shield',
+//         img:'BCBS.png'
+//     },
+//     {
+//         id:9,
+//         name:'Blue Cross Blue Shield',
+//         img:'BCBS.png'
+//     },
+//     {
+//         id:10,
+//         name:'Blue Cross Blue Shield',
+//         img:'BCBS.png'
+//     },
+//     {
+//         id:10,
+//         name:'Blue Cross Blue Shield',
+//         img:'BCBS.png'
+//     },
+//     {
+//         id:10,
+//         name:'Blue Cross Blue Shield',
+//         img:'BCBS.png'
+//     },
+//     {
+//         id:10,
+//         name:'Blue Cross Blue Shield',
+//         img:'BCBS.png'
+//     },
+//     {
+//         id:10,
+//         name:'Blue Cross Blue Shield',
+//         img:'BCBS.png'
+//     },
+//     {
+//         id:10,
+//         name:'Blue Cross Blue Shield',
+//         img:'BCBS.png'
+//     },
+//     {
+//         id:10,
+//         name:'Blue Cross Blue Shield',
+//         img:'BCBS.png'
+//     },
+//     {
+//         id:10,
+//         name:'Blue Cross Blue Shield',
+//         img:'BCBS.png'
+//     },
+//     {
+//         id:10,
+//         name:'Blue Cross Blue Shield',
+//         img:'BCBS.png'
+//     },
+//     {
+//         id:10,
+//         name:'Blue Cross Blue Shield',
+//         img:'BCBS.png'
+//     },
+//     {
+//         id:10,
+//         name:'Blue Cross Blue Shield',
+//         img:'BCBS.png'
+//     },
+// ]
 
 export { medicalStaff,insurances }
 export type { medic, insurance }

@@ -11,7 +11,7 @@ const aboutUs: React.SFC<aboutUsProps> = () => {
         <div className={style.au_main_container}>
             <div className={style.au_main_container_second}>
                 <h2>About us</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ultrices fermentum massa viverra lacinia. Suspendisse a auctor elit, quis placerat nunc. Proin in consequat purus, a facilisis odio. Quisque mattis, orci ut lobortis molestie, turpis est eleifend est, et mollis odio velit vitae diam. Curabitur vel tempus enim, non suscipit nulla. Nunc ex mauris, dictum a varius non, molestie eget est. Cras consectetur, ligula quis vestibulum gravida, lacus erat vestibulum neque, a lobortis nulla enim ac libero. Vivamus nec odio sapien. Aenean velit elit, ultricies eu justo sed, interdum lacinia sapien. Suspendisse potenti. Aenean maximus libero at nisi ultrices condimentum. Morbi et purus maximus, luctus eros sed, gravida urna. Fusce egestas, justo et facilisis tempus, nulla quam maximus dolor, vitae pulvinar purus mi in odio.</p>
+                <p>Somos  una empresa privada del rubro médico  constituida por el Dr. Rodolfo Quispe Orihuela, prestadora de  servicios de salud las 24 horas. Contamos con profesionales altamente calificados entrenados en medicina de urgencia, desastres y demás, lo que garantiza nuestra calidad y atención personalizada en cada uno de nuestros servicios. </p>
             </div>
             <div className={style.au_main_container_second}>
                 <h2>Medical Staff</h2>
